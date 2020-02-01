@@ -3,5 +3,5 @@ def reverse_each_word(sentence1)
   arr.map do |a|
     a.reverse
   end
-  .join
+  .join(" ")
 end
